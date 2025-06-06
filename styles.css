@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Use retro pixel font */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Center content and give it a max width */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #ffcc00;
+    text-shadow: 2px 2px #333;
+}
+
+/* Retro-style buttons */
+.btn {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 20px;
+    color: #000;
+    background-color: #ffcc00;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px #999;
+}
+
+.btn:hover {
+    background-color: #fff600;
+    transform: translateY(-2px);
+    box-shadow: 0 6px #666;
+}
+
+@media screen and (max-width: 500px) {
+    .btn {
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+}
