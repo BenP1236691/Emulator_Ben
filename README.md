@@ -9,6 +9,7 @@ This emulator is built using the EmulatorJS framework. This powerful framework p
 # Results
 
 ![image](image_2025-06-07_093345383.png)
+![image](image_2025-06-07_093409796.png)
 
 # What's Next
 This project is still a work in progress! My main goal is to add more games to the library, expanding the collection and making Emulator_Ben an even richer resource for retro gaming enthusiasts.
