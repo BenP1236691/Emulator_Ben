@@ -1,52 +1,26 @@
 <html>
-  
-  <head>
-    <meta charset="utf-8">
-    <!--HTML file auto generated using EmulatorJS codehelper-->
-    <style>
-      /* Google Fonts: 微軟正黑體 fallback for Chinese, plus Press Start 2P for retro
-      English */ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-      /* Reset body and html for fullscreen experience */ html, body { height:
-      100%; margin: 0; padding: 0; box-sizing: border-box; background: radial-gradient(circle
-      at 60% 40%, #2b2f5c 50%, #15162c 100%); font-family: 'Microsoft JhengHei',
-      '微軟正黑體', 'Noto Sans SC', 'Press Start 2P', Consolas, monospace, Arial,
-      sans-serif; color: #fff; } /* Game area container */ #game { margin: 36px
-      auto 0 auto; background: #181c2f; border: 5px solid #0064ff; border-radius:
-      20px; box-shadow: 0 12px 40px #0064ff44, 0 0px 4px #000; min-height: 480px;
-      min-width: 320px; max-width: 95vw; max-height: 80vh; display: flex; align-items:
-      center; justify-content: center; /* transition for subtle loading effect
-      */ transition: box-shadow 0.3s; } /* Optional: Add a custom “hint” or welcome
-      banner at top */ body::before { content: "歡迎!"; display: block;
-      width: 100%; text-align: center; background: linear-gradient(90deg, #0064ff
-      10%, #ffe145 90%); color: #15162c; font-size: 1.25rem; padding: 18px 0
-      10px 0; font-family: 'Microsoft JhengHei', '微軟正黑體', Arial, sans-serif;
-      letter-spacing: 2px; font-weight: bold; box-shadow: 0 3px 12px #0003; }
-      /* Responsive: smaller screens */ @media (max-width: 650px) { #game { min-width:
-      unset; width: 98vw; min-height: 200px; border-radius: 12px; margin: 12px
-      auto 0 auto; } body::before { font-size: 1rem; padding: 10px 0 6px 0; }
-      } /* Optional: Scrollbar style for a more polished look */ ::-webkit-scrollbar
-      { width: 10px; background: #23293c; } ::-webkit-scrollbar-thumb { background:
-      #0064ff; border-radius: 6px; }
-    </style>
-  </head>
-  
-  <body>
-    <div style="width:100%;height:100%;max-width:100%">
-      <div id="game">
-      </div>
-    </div>
-    <script>
-      EJS_player = "#game";
-      EJS_core = "nes";
-      EJS_gameName = "mario";
-      EJS_color = "#0064ff";
-      EJS_startOnLoaded = true;
-      EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-      EJS_bios = "disksys.rom";
-      EJS_gameUrl = "smb.fds";
-    </script>
-    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-    <script src="emulatorjs_controls.js"></script>
-  </body>
-
+    <head>
+        <!--HTML file auto generated using EmulatorJS codehelper-->
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "nes";
+            EJS_color = "#0064ff";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "Games/smb.fds/";
+            EJS_gameUrl = "smb.fds";
+            EJS_biosUrl = "disksys.rom";
+        </script>
+        <script src="Games/smb.fds/loader.js"></script>
+    </body>
 </html>
