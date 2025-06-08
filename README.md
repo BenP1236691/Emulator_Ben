@@ -6,6 +6,8 @@ I created Emulator_Ben out of a passion for retro games. When my favorite online
 # How It's Made
 This emulator is built using the EmulatorJS framework. This powerful framework provided the tools I needed to bring my vision to life and create a functional platform for playing retro titles. I also made a CSS file for fun (Thanks ChatGPT.)
 
+- Also You can make a emulatorjs page with the [EmulatorJS Code Generator](https://emulatorjs.org/editor), I used it and Added a CSS file and fix it
+
 # Results
 
 ![image](image_2025-06-07_093345383.png)
